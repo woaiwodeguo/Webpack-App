@@ -1,0 +1,19 @@
+{
+  "plugins": [
+    "@babel/syntax-dynamic-import",
+    ["component",
+      {
+        "libraryName": "mint-ui",
+        "style": true
+      }
+    ]
+  ],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false
+      }
+    ]
+  ]
+}
